@@ -43,7 +43,7 @@ other loggers.
 ## Installation
 
 ```sh
-git clone https://github.com/GeoCENS/dokku-shoreman.git /var/lib/dokku/plugins/dokku-shoreman
+dokku plugin:install https://github.com/GeoCENS/dokku-shoreman.git shoreman
 ```
 
 All future deployments will use shoreman to start all processes.
